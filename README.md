@@ -51,7 +51,7 @@ Saya juga membuat paragraf yang berisi kalimat penjelasan. Pada paragraf ini say
 ### D. Langkah 4: Menambahkan Sub Judul dan Paragraf Kedua
 <img width="1042" height="601" alt="Cuplikan layar 2025-09-23 000955" src="https://github.com/user-attachments/assets/7667ea89-b2ec-48fc-a206-550d9bffdc8c" />
 
-Berikutnya saya membuat sub judul dengan tag `<h2>` dengan teks *Paragraf pada HTML*.  
+Berikutnya saya menambahkan sub judul dengan tag `<h2>` dengan teks *Paragraf pada HTML*.  
 Lalu saya menambahkan paragraf baru sebagai contoh penggunaan tag `<p>`yang berisi penjelasan singkat tentang paragraf dalam HTML. 
 
 
@@ -59,8 +59,8 @@ Lalu saya menambahkan paragraf baru sebagai contoh penggunaan tag `<p>`yang beri
 ### E. Langkah 5: Menambahkan Gambar
 <img width="1070" height="907" alt="Cuplikan layar 2025-09-22 225708" src="https://github.com/user-attachments/assets/1a068dd1-a3ce-47d6-a955-5398e2f1d8a5" />
 
-Terakhir saya menambahkan heading `<h3>` berisi **Logo Universitas Pelita Bangsa**.  
-Kemudian saya menambahkan gambar logo UPB menggunakan tag `<img src="logo_upb.png" width="200">`.  
+Dibagian bawah halaman saya menambahkan sub judul `<h3>` dengan teks *Universitas Pelita Bangsa*.  
+Setelah itu saya menambahkan gambar logo Universitas Pelita Bangsa menggunakan tag `<img src="logo-Universitas-Pelita-Bangsa.png" width="300">`.  
 
 
 
@@ -69,5 +69,65 @@ Kemudian saya menambahkan gambar logo UPB menggunakan tag `<img src="logo_upb.pn
 
 
 Selain halaman utama, saya juga membuat halaman kedua dengan nama file **lab1_halaman2.html**.  
-Halaman ini berisi heading `<h1>` dengan teks **Halaman Kedua**, serta sebuah paragraf sederhana.  
-Di bagian bawah saya tambahkan link untuk kembali ke halaman utama (`lab1_tag_dasar.html`).  
+Halaman ini berisi heading `<h1>` dengan teks **Halaman Kedua**, serta sebuah paragraf sederhana. Kemudian di bagian bawah saya tambahkan link untuk kembali ke halaman utama (`lab1_tag_dasar.html`).  
+
+Halaman Kedua ini berfungsi sebagai contoh penggunaan hyperlink antar halaman lokal.
+
+
+
+<img width="738" height="234" alt="Cuplikan layar 2025-09-22 142154" src="https://github.com/user-attachments/assets/6dd74e19-ce22-4831-8ccb-86566d787479" />
+
+
+**_Jawaban Soal Diatas_**
+
+**Soal 1**
+Lakukan perubahan pada kode sesuai dengan keinginan anda, amati perubahannya adakah error ketika terjadi kesalahan penulisan tag?
+
+Jawaban:
+
+Perubahan kode HTML (misalnya menambahkan heading, paragraf, hyperlink, atau gambar) akan langsung memengaruhi tampilan di browser tanpa perlu kompilasi.
+
+Kesalahan penulisan tag HTML tidak menimbulkan error fatal (seperti “syntax error” pada bahasa pemrograman). Hal ini karena HTML bersifat toleran terhadap kesalahan. Browser akan mencoba memperbaiki secara otomatis.
+Namun, akibatnya bisa:
+- Tampilan menjadi tidak sesuai (contoh: teks tidak diformat, layout berantakan).
+- Elemen tertentu tidak muncul.
+- Validasi HTML gagal ketika diperiksa di validator W3C.
+
+contohnya:
+
+<img width="955" height="115" alt="image" src="https://github.com/user-attachments/assets/96aa5c1a-bba1-4fbc-bea3-861f23e37a6d" />
+
+
+pada line 37 tag tidak tertutup `</h3>` yang akan menghasilkan tampilan teks disamping gambar bukan di atas
+
+<img width="626" height="332" alt="Cuplikan layar 2025-09-23 010057" src="https://github.com/user-attachments/assets/f31f7be2-5e0d-4bad-bac4-c8dba59a2ec7" />
+
+
+**Soal 2**
+Apa perbedaan dari tag <p> dengan tag <br>, berikan penjelasannya!
+
+Jawaban
+
+Tag `<p>`(paragraph):
+- Digunakan untuk membuat paragraf.
+- Memiliki jarak (margin) otomatis di atas dan bawah.
+-` Merupakan elemen block-level (mengisi satu blok penuh).
+- contohnya:
+
+`<p>`Ini paragraf pertama.`</p>`
+
+`<p>`Ini paragraf kedua.`</p>`
+
+
+Tag `<br>` (break line):
+- Digunakan untuk pindah baris baru tanpa membuat paragraf baru.
+- Tidak menambah jarak antar baris.
+- Termasuk elemen inline.
+- contoh:
+
+  Kalimat pertama`<br>`
+  
+  Kalimat kedua`<br>`
+  
+  Kalimat ketiga.
+
