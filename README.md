@@ -15,13 +15,15 @@ Praktikum 1 — Dasar HTML
 *Praktikum 1 — Dasar HTML*
 
 ### A. Langkah 1: Membuat Struktur Dasar HTML
-<img width="793" height="605" alt="Screenshot (260)" src="https://github.com/user-attachments/assets/6118c299-3cb9-46c2-92e6-1279b87c0d58" />
+<img width="579" height="279" alt="Cuplikan layar 2025-09-23 000828" src="https://github.com/user-attachments/assets/cef2c52d-c9fb-48e4-acec-999e74d14953" />
 
-Pertama saya membuat file `lab1_tag_dasar.html` dengan struktur dasar HTML.  
-Di dalamnya saya menambahkan identitas berupa **Nama, Kelas, dan NIM**.  
+Pertama, saya membuat file lab1_tag_dasar.html sebagai halaman utama.
+Di dalam file ini saya menuliskan struktur dasar HTML5. Kemudian pada bagian isi, saya menambahkan identitas berupa: *Nama, Nim, Kelas, Mata Kuliah, Nama Dosen*
+
 
 ### B. Langkah 2: Menambahkan Navigasi (Menu Link)
-<img width="795" height="600" alt="Screenshot (261)" src="https://github.com/user-attachments/assets/d20c9634-4fd0-4bed-b7be-72d5763fb72a" />
+<img width="611" height="319" alt="Cuplikan layar 2025-09-23 000844" src="https://github.com/user-attachments/assets/43a23ef6-517a-4fbf-beaa-eb4a2c1b2f68" />
+
 
 Selanjutnya saya menambahkan tag `<nav>` untuk membuat navigasi berisi link ke:
 - `lab1_tag_dasar.html` → Dasar HTML  
@@ -31,7 +33,7 @@ Selanjutnya saya menambahkan tag `<nav>` untuk membuat navigasi berisi link ke:
 Saya juga menambahkan garis pemisah `<hr>` di bawah link.  
 
 ### C. Langkah 3: Membuat Judul dan Paragraf
-<img width="796" height="603" alt="Screenshot (262)" src="https://github.com/user-attachments/assets/174349bd-5317-4edb-8b84-7f6ee31ed08c" />
+<img width="1038" height="479" alt="Cuplikan layar 2025-09-23 000859" src="https://github.com/user-attachments/assets/aec0dbaa-03c9-4e94-9c2a-7d263325359d" />
 
 Kemudian saya menambahkan heading `<h1>` dengan teks **Belajar Dasar HTML**.  
 Saya juga membuat paragraf yang berisi kalimat penjelasan. Pada paragraf ini saya memberikan format teks:  
@@ -40,19 +42,22 @@ Saya juga membuat paragraf yang berisi kalimat penjelasan. Pada paragraf ini say
 - Garis bawah dengan `<span style="text-decoration:underline;">Universitas Pelita Bangsa</span>`  
 
 ### D. Langkah 4: Menambahkan Sub Judul dan Paragraf Kedua
-<img width="800" height="602" alt="Screenshot (263)" src="https://github.com/user-attachments/assets/4f615b4b-4afd-4693-bf97-4798ab559cdb" />
+<img width="1042" height="601" alt="Cuplikan layar 2025-09-23 000955" src="https://github.com/user-attachments/assets/7667ea89-b2ec-48fc-a206-550d9bffdc8c" />
+
 
 Berikutnya saya membuat sub judul dengan tag `<h2>` berisi **Paragraf pada HTML**.  
 Lalu saya menambahkan paragraf baru sebagai contoh penggunaan tag `<p>`.  
 
 ### E. Langkah 5: Menambahkan Gambar
-<img width="797" height="677" alt="Screenshot (254)" src="https://github.com/user-attachments/assets/b1e3aec5-0ede-48c7-b843-4b9904e832ce" />
+<img width="1070" height="907" alt="Cuplikan layar 2025-09-22 225708" src="https://github.com/user-attachments/assets/1a068dd1-a3ce-47d6-a955-5398e2f1d8a5" />
+
 
 Terakhir saya menambahkan heading `<h3>` berisi **Logo Universitas Pelita Bangsa**.  
 Kemudian saya menambahkan gambar logo UPB menggunakan tag `<img src="logo_upb.png" width="200">`.  
 
 ### F. Langkah 6: Membuat Halaman Kedua
-<img width="795" height="599" alt="Screenshot (264)" src="https://github.com/user-attachments/assets/66572001-1134-4bd1-9154-80a38eaf94ce" />
+<img width="1091" height="900" alt="Cuplikan layar 2025-09-22 225727" src="https://github.com/user-attachments/assets/3cca9519-1d31-4778-9e37-ab13ad773adc" />
+
 
 Selain halaman utama, saya juga membuat halaman kedua dengan nama file **lab1_halaman2.html**.  
 Halaman ini berisi heading `<h1>` dengan teks **Halaman Kedua**, serta sebuah paragraf sederhana.  
