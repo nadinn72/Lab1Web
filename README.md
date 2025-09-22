@@ -2,8 +2,6 @@
 
 Praktikum 1 — Dasar HTML
 
-Identitas Mahasiswa
-
 **Nama : Nadine Amelia Putri**
 
 **NIM : 312410188**
