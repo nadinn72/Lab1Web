@@ -3,13 +3,13 @@
 Praktikum 1 — Dasar HTML
 Identitas Mahasiswa
 
-##Nama : Nadine Amelia Putri##
+**Nama : Nadine Amelia Putri**
 
-NIM : 312410188
+**NIM : 312410188**
 
-Kelas : TI.24.A2
+**Kelas : TI.24.A2**
 
-Mata Kuliah : Pemrograman Web 1
+**Mata Kuliah : *Pemrograman Web 1* **
 
-Dosen : Agung Nugroho, S.Kom., M.Kom##
+**Dosen : Agung Nugroho, S.Kom., M.Kom**
 
