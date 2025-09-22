@@ -9,7 +9,7 @@ Identitas Mahasiswa
 
 **Kelas : TI.24.A2**
 
-**Mata Kuliah : *Pemrograman Web 1* **
+**Mata Kuliah : *Pemrograman Web 1***
 
 **Dosen : Agung Nugroho, S.Kom., M.Kom**
 
