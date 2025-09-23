@@ -65,7 +65,7 @@ Setelah itu saya menambahkan gambar logo Universitas Pelita Bangsa menggunakan t
 
 
 ### F. Langkah 6: Membuat Halaman Kedua
-<img width="1091" height="900" alt="Cuplikan layar 2025-09-22 225727" src="https://github.com/user-attachments/assets/3cca9519-1d31-4778-9e37-ab13ad773adc" />
+<img width="634" height="252" alt="halaman 2" src="https://github.com/user-attachments/assets/b01a6e4f-8773-485f-9eb3-9e2fc37ef6d2" />
 
 
 Selain halaman utama, saya juga membuat halaman kedua dengan nama file **lab1_halaman2.html**.  
@@ -104,7 +104,7 @@ pada line 37 tag tidak tertutup `</h3>` yang akan menghasilkan tampilan teks dis
 
 
 **Soal 2**
-Apa perbedaan dari tag <p> dengan tag <br>, berikan penjelasannya!
+Apa perbedaan dari tag ```<p>``` dengan tag ```<br>```, berikan penjelasannya!
 
 Jawaban
 
@@ -114,10 +114,10 @@ Tag `<p>`(paragraph):
 -` Merupakan elemen block-level (mengisi satu blok penuh).
 - contohnya:
 
-`<p>`Ini paragraf pertama.`</p>`
-
-`<p>`Ini paragraf kedua.`</p>`
-
+```html
+<p>Ini paragraf pertama.</p>
+<p>Ini paragraf kedua.</p>
+```
 
 Tag `<br>` (break line):
 - Digunakan untuk pindah baris baru tanpa membuat paragraf baru.
@@ -125,9 +125,54 @@ Tag `<br>` (break line):
 - Termasuk elemen inline.
 - contoh:
 
-  Kalimat pertama`<br>`
-  
-  Kalimat kedua`<br>`
-  
+```html
+  Kalimat pertama<br>
+  Kalimat kedua<br> 
   Kalimat ketiga.
+```
 
+**3. Perbedaan Atribut `title` dan `alt` pada Tag <img>**
+
+Jawaban: Kedua atribut ini memberikan informasi tambahan pada gambar, namun fungsinya berbeda.
+
+`<alt>` (alternative text):
+- Menyediakan teks alternatif jika gambar tidak dapat dimuat.
+- Digunakan oleh screen reader untuk membantu pengguna difabel.
+- Wajib digunakan untuk alasan aksesibilitas.
+
+`<title>`:
+- Menyediakan informasi tambahan yang ditampilkan sebagai tooltip ketika kursor diarahkan ke gambar.
+- Tidak berfungsi sebagai pengganti gambar.
+
+Kesimpulan: alt berfungsi sebagai deskripsi pengganti, sedangkan title berfungsi sebagai informasi tambahan interaktif.
+
+**4. Pengaturan Ukuran Gambar dengan `<width>` dan `<height>`**
+
+Atribut `<width>` dan `<height>` digunakan untuk mengatur dimensi gambar. Namun, penggunaannya perlu diperhatikan agar proporsional.
+
+- Jika kedua atribut diisi sesuai rasio asli gambar, tampilan tetap proporsional.
+- Jika hanya salah satu atribut diisi, browser akan otomatis menyesuaikan atribut lainnya sesuai proporsi asli gambar.
+- Jika keduanya diisi tidak sesuai rasio, maka gambar akan terlihat terdistorsi (gepeng atau melebar).
+
+Kesimpulan: Untuk menjaga proporsionalitas, sebaiknya cukup mengisi salah satu atribut saja (misalnya `<width>`), atau pastikan nilai `<width>` dan `<height>` sesuai dengan rasio gambar asli.
+
+**5. Fungsi Atribut target pada Tag `<a>`**
+
+Atribut target digunakan untuk menentukan lokasi atau cara link dibuka pada browser.
+
+```target="_blank"``` → Membuka link di tab/jendela baru.
+
+```target="_self"``` → Membuka link di halaman yang sama (nilai default).
+
+```target="_top"```` → Membuka link di halaman penuh, keluar dari frame.
+
+```target="_parent"``` → Membuka link di frame induk (jika halaman berada dalam frameset).
+
+Contoh:
+
+```<a href="halaman2.html" target="_blank">Buka di tab baru</a>```
+
+```<a href="halaman2.html" target="_self">Buka di halaman ini</a>```
+
+
+Kesimpulan: Pemilihan nilai target disesuaikan dengan kebutuhan navigasi web, apakah ingin tetap pada halaman yang sama, membuka tab baru, atau keluar dari struktur frame.
