@@ -164,7 +164,7 @@ Atribut target digunakan untuk menentukan lokasi atau cara link dibuka pada brow
 
 ```target="_self"``` → Membuka link di halaman yang sama (nilai default).
 
-```target="_top"```` → Membuka link di halaman penuh, keluar dari frame.
+```target="_top"``` → Membuka link di halaman penuh, keluar dari frame.
 
 ```target="_parent"``` → Membuka link di frame induk (jika halaman berada dalam frameset).
 
